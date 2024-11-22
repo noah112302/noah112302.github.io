@@ -3,31 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Skills - Noah Martinez</title>
+    <title>Skill Sets - Noah Martinez</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="skills.html">Skill Sets</a></li>
-                <li><a href="employment.html">Employment</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <h1>Skill Sets</h1>
-        <ul>
-            <li>C#, Python, SQL</li>
-            <li>Database Design & Management</li>
-            <li>ASP.NET Core MVC Development</li>
-        </ul>
-    </main>
-    <footer>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Noah's Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="skills.html">Skill Sets</a></li>
+                    <li class="nav-item"><a class="nav-link" href="employment.html">Employment</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container text-center py-5">
+        <h1 class="text-primary">Skill Sets</h1>
+        <div class="row text-center">
+            <div class="col-md-4">
+                <i class="bi bi-code-slash" style="font-size: 2rem; color: #007bff;"></i>
+                <h4>Programming</h4>
+                <p>SQL, Python, C#</p>
+            </div>
+            <div class="col-md-4">
+                <i class="bi bi-database" style="font-size: 2rem; color: #007bff;"></i>
+                <h4>Data Analysis</h4>
+                <p>SQL Queries, Excel</p>
+            </div>
+            <div class="col-md-4">
+                <i class="bi bi-gear" style="font-size: 2rem; color: #007bff;"></i>
+                <h4>Tools</h4>
+                <p>Power BI, Tableau</p>
+            </div>
+        </div>
+    </div>
+    <footer class="bg-dark text-white text-center py-3">
         <p>&copy; 2024 Noah Martinez. All Rights Reserved.</p>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
